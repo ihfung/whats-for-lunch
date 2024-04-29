@@ -15,7 +15,7 @@
 
 const whatToDoForLunch = function (hungry, availableTime) {
   //console.log("I don't know what to do!");
-  if (hungry === false) {
+  if (!hungry) {
     console.log("Wait until you're hungry.");
   } else {
     if (availableTime < 20) {
